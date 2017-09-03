@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MAX4466
-D MAX4466 Microphone Amplifier
-K MAX4466
+$CMP TRIMPOT-TC33X-2
+D Trimpot potentiometer adjustable resistor
+K Trimpot
 $ENDCMP
 #
 #End Doc Library
