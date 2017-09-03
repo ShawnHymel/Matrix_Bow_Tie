@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX4466
+D MAX4466 Microphone Amplifier
+K MAX4466
+$ENDCMP
+#
+#End Doc Library

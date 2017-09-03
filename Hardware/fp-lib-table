@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Matrix_Bot_Tie)(type KiCad)(uri "$(KIPRJMOD)/Matrix_Bot_Tie.pretty")(options "")(descr ""))
+)
