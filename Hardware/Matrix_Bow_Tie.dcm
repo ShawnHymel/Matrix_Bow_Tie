@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 51OHM-0603-1_10W-1%
+D 51 resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia 
+$ENDCMP
+#
 $CMP TRIMPOT-TC33X-2
 D Trimpot potentiometer adjustable resistor
 K Trimpot
