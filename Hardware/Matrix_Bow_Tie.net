@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/sgmustadio/Documents/GitHub/Matrix_Bow_Tie/Hardware/Matrix_Bow_Tie.sch)
-    (date "9/9/2017 5:30:10 PM")
+    (date "9/10/2017 3:05:13 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -643,7 +643,15 @@
         (field (name Field4) XXX-00000))
       (libsource (lib SparkFun-Hardware) (part STAND-OFF))
       (sheetpath (names /) (tstamps /))
-      (tstamp 59B2AB6B)))
+      (tstamp 59B2AB6B))
+    (comp (ref LOGO1)
+      (value OSHW-LOGOS)
+      (footprint OSHW-LOGO-S)
+      (fields
+        (field (name Field4) XXX-00000))
+      (libsource (lib SparkFun-Aesthetics) (part OSHW-LOGOS))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59B5C1C7)))
   (libparts
     (libpart (lib SparkFun-Capacitors) (part 0.1UF-0603-25V-_+80_-20%_)
       (description "0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field. ")
@@ -869,6 +877,15 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))
         (pin (num 4) (name 4) (type passive))))
+    (libpart (lib SparkFun-Aesthetics) (part OSHW-LOGOS)
+      (description "Open-Source Hardware (OSHW) Logo  This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: <a href=\"http://freedomdefined.org/OSHW\">http://freedomdefined.org/OSHW</a> ")
+      (footprints
+        (fp *OSHW-LOGO-S*))
+      (fields
+        (field (name Reference) LOGO)
+        (field (name Value) OSHW-LOGOS)
+        (field (name Footprint) OSHW-LOGO-S)
+        (field (name Field4) XXX-00000)))
     (libpart (lib SparkFun-Hardware) (part STAND-OFF)
       (description "Stand Off Drill holes for mechanically mounting via screws, standoffs, etc. Note: Use the keepout ring to avoid running the screw head into surrounding components.<h4>Variant Overviews</h4><ul><li><b>STAND-OFF</b> - Mechanical footprint for a <b>#4 phillips button head</b> screw.</li><li><b>STAND-OFF-TIGHT</b> - Mechanical footprint for a <b>#4 phillips button head</b> screw, </li></ul><h4>Example SparkFun Products</h4><ul><li><a href=\"https://www.sparkfun.com/products/10453\">Screw - Phillips Head (1/4\", 4-40, 10 pack)</a> (PRT-10453)</li><li><a href=\"https://www.sparkfun.com/products/10452\">Screw - Phillips Head (1/2\", 4-40, 10 pack)</a> (PRT-10452)</li><li><a href=\"https://www.sparkfun.com/products/10451\">Screw - Phillips Head (3/4\", 4-40, 10 pack)</a> (PRT-10451)</li><li><a href=\"https://www.sparkfun.com/products/10450\">Screw - Phillips Head (1\", 4-40, 10 pack)</a> (PRT-10450)</li>")
       (footprints
@@ -908,6 +925,8 @@
         (pin (num 2) (name WIPER) (type passive))
         (pin (num 3) (name CW) (type passive)))))
   (libraries
+    (library (logical SparkFun-Aesthetics)
+      (uri C:\Users\sgmustadio\Documents\GitHub\SparkFun-KiCad-Libraries\Libraries\SparkFun-Aesthetics.lib))
     (library (logical SparkFun-Capacitors)
       (uri C:\Users\sgmustadio\Documents\GitHub\SparkFun-KiCad-Libraries\Libraries\SparkFun-Capacitors.lib))
     (library (logical SparkFun-Coils)
